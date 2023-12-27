@@ -25,7 +25,6 @@ SFTP_PORT = int(os.environ.get("RETROID_BACKUP_SFTP_PORT", 22))  # Default SFTP 
 SFTP_USER = os.environ.get("RETROID_BACKUP_SFTP_USER", None)
 SFTP_PASS = os.environ.get("RETROID_BACKUP_SFTP_PASS", None)
 
-print(f"password:'{SFTP_PASS}'")
 
 # Function to recursively copy directory to SFTP
 def sftp_put_dir(sftp, local_path, remote_path):
