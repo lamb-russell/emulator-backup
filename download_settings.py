@@ -37,8 +37,8 @@ emulator_paths = {
     "ppsspp": {
         "saves": "/device/ROMs/PSP/PSP/SAVEDATA",
         "config": [
-                   "/device/ROMs/PSP/PSP/SYSTEM",
-                   "/device/ROMs/PSP/PSP/PPSSPP_STATE"
+                   "/device/ROMs/PSP/PSP/SYSTEM"
+                   #,"/device/ROMs/PSP/PSP/PPSSPP_STATE"
                    ]
     },
     "aethersx2": {
